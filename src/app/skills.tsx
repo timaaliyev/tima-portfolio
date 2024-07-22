@@ -1,18 +1,13 @@
 "use client";
 
-import { Typography } from "@material-tailwind/react";
-import {
-  RectangleGroupIcon,
-  FingerPrintIcon,
-  SwatchIcon,
-  HashtagIcon,
-  EyeIcon,
-  DocumentTextIcon,
-  ComputerDesktopIcon,
-  PuzzlePieceIcon,
-  DevicePhoneMobileIcon,
-} from "@heroicons/react/24/solid";
 import { SkillCard } from "@/components";
+import {
+  ComputerDesktopIcon,
+  DevicePhoneMobileIcon,
+  PuzzlePieceIcon,
+} from "@heroicons/react/24/solid";
+import { Typography } from "@material-tailwind/react";
+import Techs from "./techs";
 
 const SKILLS = [
   {
@@ -60,6 +55,7 @@ export function Skills() {
           <SkillCard key={idx} {...props} />
         ))}
       </div>
+      <Techs />
     </section>
   );
 }
