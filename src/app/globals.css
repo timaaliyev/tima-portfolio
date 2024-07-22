@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+.hero-block .hero-block-2, .hero-block .hero-image {
+  transition: transform 1s;
+}
+
+.hero-block.opened .hero-block-2 {
+  transform: translateX(10%) translateY(-10%);
+}
+
+.hero-block.opened .hero-image {
+  transform: translateX(20%) translateY(-20%);
+}
+
+.hero-block-2 p {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  transform: rotate(180deg);
+}
