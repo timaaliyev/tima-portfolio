@@ -86,7 +86,7 @@ export function Navbar() {
         <ul className="ml-10 hidden items-center gap-8 lg:flex">
           {NAV_MENU.map(({ name, icon: Icon, href, target }) => (
             <NavItem key={name} href={href} target={target}>
-              <Icon className="h-5 w-5" />
+              <Icon className="h-5 w-5" style={{ color: "#6A7AB5" }} />
               {name}
             </NavItem>
           ))}
@@ -121,7 +121,7 @@ export function Navbar() {
           <ul className="flex flex-col gap-4">
             {NAV_MENU.map(({ name, icon: Icon, href, target }) => (
               <NavItem key={name} href={href} target={target}>
-                <Icon className="h-5 w-5" />
+                <Icon className="h-5 w-5" style={{ color: "#6A7AB5" }} />
                 {name}
               </NavItem>
             ))}

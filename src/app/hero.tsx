@@ -13,19 +13,18 @@ function Hero() {
   }, []);
 
   return (
-    <header className="bg-[#6A7AB5] p-28 overflow-hidden relative">
+    <header className="bg-[#6A7AB5] px-8 py-28 lg:p-28 overflow-hidden relative">
       <div className="container mx-auto grid h-full gap-10 min-h-[60vh] w-full grid-cols-1 items-center lg:grid-cols-2">
         <div className="row-start-2 lg:row-auto">
           <Typography
             variant="h1"
-            color="white"
-            className="mb-4 lg:text-7xl !leading-tight text-3xl font-joti font-normal"
+            className="mb-4 lg:text-7xl !leading-tight text-3xl font-joti font-normal text-white"
           >
             Teymur Aliyev
           </Typography>
           <Typography
-            variant="lead"
-            className="mb-4 md:pr-16 xl:pr-28 font-roboto"
+            color="white"
+            className="mb-4 md:pr-16 xl:pr-28 font-roboto text-white text-lg"
           >
             With a decade of experience as a graphic designer, I transitioned
             into frontend development after two years of dedicated learning. Now

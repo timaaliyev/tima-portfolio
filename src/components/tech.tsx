@@ -1,4 +1,4 @@
-import { Card, CardBody, Typography } from "@material-tailwind/react";
+import { Typography } from "@material-tailwind/react";
 
 interface TechCardProps {
   title: string;
