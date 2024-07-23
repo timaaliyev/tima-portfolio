@@ -56,7 +56,7 @@ function Hero() {
 
           {/* </div> */}
         </div>
-        <div className="flex items-center justify-center min-w-[80%] pt-4">
+        <div className="flex items-center justify-center min-w-[80%] pt-4 mr-[60px]">
           <div
             className={`relative h-[16rem] w-[16rem] lg:h-[24rem] lg:w-[24rem] flex items-end justify-center p-2 lg:p-4 rounded shadow-md bg-[#cbcee5] hero-block ${
               hovered ? "opened" : ""

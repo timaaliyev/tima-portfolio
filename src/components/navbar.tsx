@@ -1,21 +1,20 @@
 import {
   Bars3Icon,
   CheckBadgeIcon,
-  CommandLineIcon,
+  DevicePhoneMobileIcon,
+  EnvelopeIcon,
   LightBulbIcon,
   RectangleStackIcon,
-  UserCircleIcon,
   XMarkIcon,
 } from "@heroicons/react/24/solid";
 import {
-  Button,
   Collapse,
   IconButton,
   Navbar as MTNavbar,
   Typography,
 } from "@material-tailwind/react";
-import React from "react";
 import Image from "next/image";
+import React from "react";
 
 const NAV_MENU = [
   {
@@ -34,6 +33,12 @@ const NAV_MENU = [
     name: "Skills",
     icon: LightBulbIcon,
     href: "#skills",
+    target: "_self",
+  },
+  {
+    name: "Contacts",
+    icon: EnvelopeIcon,
+    href: "#contacts",
     target: "_self",
   },
 ];
@@ -97,7 +102,7 @@ export function Navbar() {
               timaaliyev39@gmail.com
             </Typography>
           </a>
-          <a href="mailto:+994556692039" target="_blank">
+          <a href="tel:+994556692039" target="_blank">
             <Typography color="orange" className="text-base">
               +994556692039
             </Typography>
@@ -132,7 +137,7 @@ export function Navbar() {
                 timaaliyev39@gmail.com
               </Typography>
             </a>
-            <a href="mailto:+994556692039" target="_blank">
+            <a href="tel:+994556692039" target="_blank">
               <Typography color="orange" className="text-base">
                 +994556692039
               </Typography>

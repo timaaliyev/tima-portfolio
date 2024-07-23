@@ -17,6 +17,11 @@ const LINKS = [
     href: "#skills",
     target: "_self",
   },
+  {
+    name: "Contacts",
+    href: "#contacts",
+    target: "_self",
+  },
 ];
 const CURRENT_YEAR = new Date().getFullYear();
 
