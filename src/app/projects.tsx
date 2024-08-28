@@ -46,6 +46,13 @@ const PROJECTS = [
     url: "http://auction.teymuraliyev.info/",
     github: "https://github.com/timaaliyev/auction/",
   },
+  {
+    img: "/image/pair-game.png",
+    title: "Pair Game",
+    desc: "In this game your goal is to find equal cards and open them all",
+    url: "http://pair-game.teymuraliyev.info/",
+    github: "https://github.com/timaaliyev/pairGame/",
+  },
 ];
 
 export function Projects() {
