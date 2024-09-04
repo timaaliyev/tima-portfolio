@@ -52,6 +52,13 @@ const DEVELOPMENT_CERTIFICATE_ITEMS = [
     children: "Skillbox - Learn JS base level. Part of Webdev profession.",
     url: "https://skillbox.ru/course/profession-webdev/",
   },
+  {
+    icon: <div>TS</div>,
+    src: "/image/Skillbox_ts.jpg",
+    title: "Skillbox - TS",
+    children: "Skillbox - Learn TS base level. Part of Webdev profession.",
+    url: "https://skillbox.ru/course/profession-webdev/",
+  },
 ];
 
 export function Certificates() {
