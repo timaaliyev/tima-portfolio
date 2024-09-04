@@ -53,6 +53,13 @@ const PROJECTS = [
     url: "http://pair-game.teymuraliyev.info/",
     github: "https://github.com/timaaliyev/pairGame/",
   },
+  {
+    img: "/image/todolist.png",
+    title: "Todo List",
+    desc: "This is todolist written in pure JS",
+    url: "http://todolist.teymuraliyev.info/",
+    github: "https://github.com/timaaliyev/todolist/",
+  },
 ];
 
 export function Projects() {
