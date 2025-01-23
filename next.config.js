@@ -10,6 +10,19 @@ const nextConfig = {
       },
     ],
   },
+  async headers() {
+    return [
+      {
+        source: "bb-mail.png",
+        headers: [
+          {
+            key: "Content-Type",
+            value: "image/png",
+          },
+        ],
+      },
+    ];
+  },
 };
 
 module.exports = nextConfig;
