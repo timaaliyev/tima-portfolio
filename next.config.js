@@ -13,7 +13,7 @@ const nextConfig = {
   async headers() {
     return [
       {
-        source: "bb-mail.png",
+        source: "/bb-mail.png",
         headers: [
           {
             key: "Content-Type",
